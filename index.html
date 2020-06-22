@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+  <title>Still photo analysis+capture demo</title>
+  <meta charset='utf-8'>
+  <link rel="stylesheet" href="main.css" type="text/css" media="all">
+  <script defer src="Libraries/face-api.min.js"></script>
+  <script defer src="capture.js"></script>
+
+</head>
+
+<body>
+
+  <div class="camera">
+    <video id="video">Video stream not available.</video>
+    <button id="startbutton">Take photo</button>
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+  <p id="instructions">Output text</p>
+
+  <div class="output">
+    <img id="photo" alt="The screen capture will appear in this box.">
+    <p id="status">Status message</p>
+  </div>
+
+</body>
+
+</html>
